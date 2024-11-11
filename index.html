@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>OPINIONI</h1>
+    <p>Estimado usuario(a) tu opinion es muy importante para conocer el servicio que manejan algunos de los restaurantes mas pupolares.</p>
+    <form method='post' action='/submit'>
+        <h2>RESTAURANTES)</h2>
+        <label for='restaurantes'>1.-¿En cual de estos restaurantes comiste por ultima vez o es tu favorito!!!!?</label>
+        <select name='restaurantes'>
+<option></option>
+            <option>MC Donalds</option>
+            <option>Burguer King</option>
+            <option>carls jr</option>
+            <option>johnny rockets</option>
+            <option>MITICA</option>
+        </select><br><br>
+<!--calificaion de la sucursal  -->
+        <label for='apariencia'>2.-¿como calificas la higiene de la sucursal?</label>
+            <select name='apariencia'>
+<option></option>
+            <option>muy limpio</option>                                     
+            <option>aceptable</option>                                     
+            <option>mala</option>                                      
+        </select><br><br>
+       <label for='atencion'>3.-¿como calificas la atencion?</label>
+            <select name='atencion'>
+<option></option>
+            <option>muy atentos</option>                                     
+            <option>amables</option>                                     
+            <option>apaticos</option>                                      
+        </select><br><br>
+       <label for='rapides'>4.-¿como calificas la rapides?</label>
+            <select name='rapides'>
+<option></option>
+            <option>muy rapidos</option>                                     
+            <option>aceptable</option>                                     
+            <option>demoran mucho</option>                                      
+        </select><br><br>
+
+
+<!--calificaion de la comida   -->
+        <h2>SATISFACCION DE LOS ALIMENTOS</h2>
+        <label for='calidadcomida'>¿Que opinas de la relacion calidad precio de los alimentos ofrecidos?</label>
+        <select name='calidadcomida'>
+<option></option>
+            <option>Muy buena relacion</option>
+            <option>Regular</option>
+            <option>Insatisfactoria</option>
+            <option>Muy insatisfactoria</option>
+        </select><br><br>
+        <label for='saborcomida'>¿Que opinas del sabor de los alimentos?</label>
+        <select name='saborcomida'>
+<option></option>
+            <option>Delicioso</option>
+            <option>aceptable</option>
+            <option>Malo</option>
+            <option>Muy insatisfactoria</option>
+        </select><br><br>
+
+        <label for='suceso'> en caso de ser muy insatisfactoria cuentanos que paso</label>
+            <input id='suceso'/>
+         </select><br><br>
+        
+        <label for='aparienciacomida'>¿como calificas la apariencia de los alimentos?</label>
+        <select name='aparienciacomida'>
+<option></option>
+            <option>Delicioso</option>
+            <option>aceptable</option>
+            <option>Malo</option>
+            <option>Muy insatisfactoria</option>
+            </select><br><br> 
+
+       <label for='aparienciasuceso'> en caso de ser muy insatisfactoria cuentanos que paso</label>
+            <input id='aparienciasuceso'/>
+              </select><br><br>
+
+
+        <input type='submit' value='Enviar'>
+    </form>
+</body>
+<h1>Gracias por completar la encuesta</h1>
+</html>
